@@ -3,7 +3,7 @@ This a program that allows the user to view, add, update, or delete an event on 
 """
 from time import sleep, strftime
 
-USER_FIRST_NAME = "Clement" 
+USER_FIRST_NAME = raw_input("Enter name: ") 
 calendar = {}
 
 def welcome():
